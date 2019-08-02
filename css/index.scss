@@ -1,0 +1,145 @@
+/*.....Index.CSS page Design with CSS.....Start*/
+.navbar{
+    .navbar-brand{
+        font-size: 26px;
+    }
+    .navbar-brand:hover{
+        color: chartreuse;
+    }
+}
+#NavbarNav{
+    .nav-item{
+        padding-left: 1em;
+    }
+    .nav-link:hover{
+        color: rgb(18, 231, 160);
+    }
+}
+#sliderMainId{
+    padding: 5px;
+}
+.carousel-inner{
+    .carousel-item{
+        height: 480px;
+    }
+    .img-setup1{
+        background: url('../img/1.jpg') no-repeat top center;
+        background-size: cover;
+        opacity: rgba(5, 0, 0, 0.863);
+        width: 100%;
+    }
+     .img-setup2 {
+         background: url('../img/2.jpg') no-repeat top center;
+         background-size: cover;
+     }
+      .img-setup3 {
+          background: url('../img/5.jpg') no-repeat top center;
+          background-size: cover;
+      }
+       .img-setup4 {
+           background: url('../img/7.jpg') no-repeat top center;
+           background-size: cover;
+       }
+}
+#home_icon{
+    .fas{
+       margin-bottom: 20px;
+    }
+    .fas:hover{
+        color:rgb(143, 10, 231);
+    }
+}
+#fixedSection{
+    background: url('../img/blanket-couple.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+    .overlay_{
+        background: rgba(14, 138, 8, 0.336);
+        width: 100%;
+        min-height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+#youtube_video{
+     background: url('../img/t1.jpg') no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     min-height: 250px;
+     position: relative;
+
+     .overlay__ {
+         background: rgba(27, 9, 9, 0.712);
+         width: 100%;
+         min-height: 100%;
+         position: absolute;
+         top: 0;
+         left: 0;
+     }
+     .fa{
+         color: #ff0000;
+         font-size: 30px;
+     }
+    h3{
+        color: #fff;
+    }
+};
+/*.....Index.CSS page Design with CSS.....End*/
+
+/*.....About.Css page Design with CSS.....Start*/
+
+
+/*.....About.Css page Design with CSS.....End*/
+
+
+
+/*.....Index.CSS page Design with Media Query....Start*/
+@media(max-width: 768px){
+   #NavbarNav{
+       .nav-item{
+           padding-left: 0 !important ;
+       }
+   }
+}
+@media(max-width: 768px){
+    .carousel-caption{
+        h2{
+            font-size: 30px;
+            text-align: center;
+        }
+        p{
+           font-size: 16px;
+           text-align: center;
+        }
+    }
+}
+@media(max-width: 768px){
+    #fixedSection{
+        min-height: 300px;
+    }
+}
+@media(max-width: 480px) {
+    #fixedSection {
+        min-height: 350px;
+    }
+}
+@media(max-width: 360px) {
+    #fixedSection {
+        min-height: 390px;
+    }
+}
+@media(max-width: 320px){
+    #fixedSection{
+        min-height: 500px;
+    }
+}
+/*.....Index.CSS page Design with Media Query....End*/
+
+/*.....About.CSS page Design with Media Query.....Start*/
+
+
+
+/*.....About.CSS page Design with Media Query.....End*/
