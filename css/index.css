@@ -98,6 +98,28 @@
 
 /*.....Index.CSS page Design with CSS.....End*/
 /*.....About.Css page Design with CSS.....Start*/
+#about_head {
+  background: url("../img/about_3.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  font-size: 20px;
+}
+
+#about_info .picRound {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+#icon-boxes .row_2 .iconcolor4 {
+  color: #444;
+}
+
+#icon-boxes .row_2 .iconcolor6 {
+  color: #ff0000;
+}
+
 /*.....About.Css page Design with CSS.....End*/
 /*.....Index.CSS page Design with Media Query....Start*/
 @media (max-width: 768px) {
