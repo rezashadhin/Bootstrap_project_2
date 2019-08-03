@@ -120,6 +120,11 @@
   color: #ff0000;
 }
 
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before {
+  color: #000;
+}
+
 /*.....About.Css page Design with CSS.....End*/
 /*.....Index.CSS page Design with Media Query....Start*/
 @media (max-width: 768px) {

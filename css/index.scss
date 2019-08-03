@@ -114,6 +114,14 @@
         }
     }
 }
+#testimonial{
+    .slick-prev::before,
+    .slick-next::before {
+        color: #000;
+    }
+}
+.slick-prev,
+.slick-next {}
 
 /*.....About.Css page Design with CSS.....End*/
 
