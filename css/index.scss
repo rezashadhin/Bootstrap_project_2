@@ -120,9 +120,50 @@
         color: #000;
     }
 }
-
-
 /*.....About.Css page Design with CSS.....End*/
+
+/*....Service page section start...*/
+#service_head {
+     background: url('../img/ser2.jpg') no-repeat center center;
+     background-size: cover;
+     background-attachment: fixed;
+     min-height: 250px;
+     font-size: 20px;
+     }
+.pdTopbottom {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.Footer_bg{
+    background-color: #000;
+}
+/*Service page end*/
+
+/*ABOUT PAGE START*/
+#blog_head {
+    background: url('../img/ser1.jpg') no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+    font-size: 20px;
+}
+/*ABOUT PAGE END*/
+/*BLOG PAGE START*/
+.medQ{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*BLOG PAGE END*/
+/*Contact page Start*/
+#contact_head{
+   background: url('../img/t1.jpg') no-repeat center bottom;
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 300px;
+   font-size: 20px;
+}
+
+/*Contact page End*/
 
 
 
@@ -161,15 +202,48 @@
         min-height: 390px;
     }
 }
-@media(max-width: 320px){
-    #fixedSection{
-        min-height: 500px;
-    }
-}
 /*.....Index.CSS page Design with Media Query....End*/
 
-/*.....About.CSS page Design with Media Query.....Start*/
+/*.....Service.CSS page Design with Media Query.....Start*/
+@media(max-width: 310px) {
+    .pdTopbottom {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 480px){
+    .pdTopbottom {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+@media(max-width: 576px) {
+    .pdTopbottom {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
 
+}
+/*.....Service.CSS page Design with Media Query.....End*/
 
-
-/*.....About.CSS page Design with Media Query.....End*/
+/*.....blog.CSS page Design with Media Query.....Start*/
+@media(max-width: 310px) {
+    .medQ {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 480px) {
+    .medQ {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 576px) {
+    .medQ {
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+}
+/*.....blog.CSS page Design with Media Query.....end*/
